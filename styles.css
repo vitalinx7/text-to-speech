@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .container {
-    height: 300px;
-    width: 300px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px  -3px;
-    background: white;
+    height: 480px;
+    width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.9) 0px 3px 7px  -3px;
+    background: beige;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -15,15 +15,15 @@
 .title {
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     font-family: 500;
     color: black;
     font-weight: 600;
 }
 
 .enter_text  {
-    height: 100px;
-    width: 250px;
+    height: 200px;
+    width: 300px;
     position: absolute;
     top: 53%;
     left: 50%;
@@ -31,23 +31,23 @@
     font-family: 'Raleway', sans-serif;
     border: none;
     outline: none;
-    border: 1px solid #514CE1;
+    border: 1px solid #302e75;
 }
 
 .title::before {
     content: "Enter text:";
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 75px;
+    top: 80px;
     color: black;
-    font-size: 15px;    
-    margin-left: -40px;
-    font-weight: 500;
+    font-size: 16px;    
+    margin-left: 40px;
+    font-weight: 600;
 }
 
 .speak_btn {
     color: white;
-    background: #514CE1;
+    background: #302e75;
     height: 40px;
     width: 250px;
     font-family: 'Raleway', sans-serif;
@@ -60,4 +60,17 @@
     border-radius: 5px;
     font-size: 15px;
     cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    display: flex; 
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    bottom: 0;
+    margin: 10px;
+    gap: 25px;
+    z-index: -1;  
 }

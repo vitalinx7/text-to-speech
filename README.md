@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img alt="project" src=".github/preview.png" width="80%">
+  <img alt="project" src=".github/preview.jpeg" width="80%">
 </p>
 
 
