@@ -14,7 +14,7 @@
 
 Text to Speech uses external api to generate audio from your text.
 
-▷ [Access the finished project](https://vitalinx7.github.io/)
+▷ [Access the finished project](https://vitalinx7.github.io/text-to-speech/)
 
 
 ## 🛠️ Technologies
